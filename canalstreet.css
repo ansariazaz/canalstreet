@@ -393,9 +393,10 @@ footer {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  column-gap: 620px;
+  column-gap: 375px;
   margin-bottom: 40px;
   width: 100%;
+  justify-content: space-between;
 }
 
 footer a {
@@ -461,18 +462,21 @@ footer a {
   .code2{
       font-size: 60px;
   }
-  .container4 {
+  .container4{
     flex-direction: column;
     row-gap: 50px;
+    border-bottom:none;
   }
   .balance,.hack-city,.wave{
       width: 100%;
       border-bottom: dashed 2px black;
   }
   .see-all{
+      padding-top: 20px;
       width: 100%;
       background-color: #ffb400;
   }
+  
   .container5{
       display: flex;
   }
